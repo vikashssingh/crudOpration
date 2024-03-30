@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Lato:wght@300;400;700&family=Open+Sans:ital,wght@0,500;1,400&family=Skranji:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ViewItem{
+  text-align: center;
+}
+.ViewItem h1{
+
+    padding: 30px 0;
+}
+.ViewItem .table_view{
+    width:100%;
+}
+.ViewItem .table_view th,td{
+    border:1px solid;
+    text-align: center;
+}
+.ViewItem .table_view .del_button .up_button {
+    padding:10px 20px;
+    border:0;
+    outline: 0;
+    color:#fff;
+    cursor: pointer;
+    border:1px solid;
+    transition: .5s ease-in-out;
+}
+.del_button{
+    background: rgb(165,15,15);
+
+}
+.up_button{
+    background: #4caf50;
+}
+.del_button:hover,.up_button:hover{
+    background: transparent;
+    color: #111;
+    border: 1px solid;
+
+}
